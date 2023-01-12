@@ -1,0 +1,39 @@
+{
+  "name": "beersdirectory",
+  "version": "1.0.0",
+  "description": "\"A SPA of Beers Review created as final project of Web Development Course of École Centrale de Marseille",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElGarra/BeersDirectory.git"
+  },
+  "keywords": [
+    "ECM",
+    "CRUD",
+    "SPA",
+    "Express",
+    "EJS",
+    "Sequelize",
+    "SQL",
+    "Beer"
+  ],
+  "author": "Joaquín castaños (@ElGarra)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElGarra/BeersDirectory/issues"
+  },
+  "homepage": "https://github.com/ElGarra/BeersDirectory#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "node-fetch-commonjs": "^3.2.4",
+    "pg": "^8.8.0",
+    "sequelize": "^6.28.0"
+  }
+}

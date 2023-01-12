@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "joaquin",
+    "password": 62391074,
+    "database": "beers_directory",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "joaquin",
+    "password": 62391074,
+    "database": "beers_directory",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "joaquin",
+    "password": 62391074,
+    "database": "beers_directory",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
