@@ -40,4 +40,4 @@ npm run start
 
 To display the project in you browser, just go go to your localhost in port 8000. The main route is the following:
 
-[localhost:8000/spa](localhost:8000/spa)
+[http://localhost:8000/spa](http://localhost:8000/spa)
