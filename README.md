@@ -27,6 +27,38 @@ npm install
 
 ### 3.2 Create database and run migration
 
+Before run the following command, you have to enter your own PostgreSQL username and password in ```config.json``` file, located in ```config``` folder. The file must have the following structure:
+
+```
+{
+  "development": {
+    "username": <your_username>,
+    "password": <your_password>,
+    "database": "beers_directory",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": <your_username>,
+    "password": <your_password>,
+    "database": "beers_directory",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": <your_username>,
+    "password": <your_password>,
+    "database": "beers_directory",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+```
+
+Being ```<your_username>``` and ```<your_password>``` the fields to fill.
+
+Now you can run this command, to create de database and run the migration.
+
 ```bash
 npx sequelize-cli db:migrate
 ```
